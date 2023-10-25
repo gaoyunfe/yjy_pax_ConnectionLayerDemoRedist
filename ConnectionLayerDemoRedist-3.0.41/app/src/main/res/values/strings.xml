@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PAX CL Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu">Menu</string>
+    <string name="sw">Sw</string>
+    <string name="disconnect">Disconnected</string>
+    <string name="shutdown">Shut</string>
+    <string name="dll">First DLL</string>
+    <string name="payment">Pay</string>
+    <string name="reversal">Reversal</string>
+    <string name="cancel_transaction">Cancel Transaction</string>
+    <string name="closeSession">Closure</string>
+    <string-array name="GtSelectionStringArray">
+        <item >Any GT</item>
+        <item >GT 1</item>
+        <item >GT 2</item>
+        <item >GT 3</item>
+        <item >GT 4</item>
+        <item >GT 5</item>
+    </string-array>
+    <string name="EUR">\u00A0\u00A0&#8364;\u00A0\u00A0\u00A0\u00A0</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="pause_update">Pause update</string>
+    <string name="resume_update">Resume update</string>
+    <!-- Example FireMissilesDialogFragmentExample - start -->
+    <string name="dialog_fire_missiles">FragmentExample: ...Question...?</string>
+    <string name="fire">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <!-- Example FireMissilesDialogFragmentExample - end -->
+    <!-- Example DynamicSpinnerExample - start -->
+    <!--	<string name="app_name">DynamicSpinner</string> -->
+    <string name="selected_item">Selected item:</string>
+    <!-- Example DynamicSpinnerExample - end -->
+</resources>

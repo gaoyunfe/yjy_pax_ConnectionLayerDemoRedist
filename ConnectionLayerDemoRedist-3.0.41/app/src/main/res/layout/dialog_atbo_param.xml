@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!--
+    <ImageView
+        android:src="@drawable/header_logo"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:scaleType="center"
+        android:background="#FFFFBB33"
+        android:contentDescription="@string/app_name" />
+    -->
+    <!--
+    <TextView
+        android:id="@+id/dialog_atbo_params"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="ATBO Param.s"/>
+         -->
+
+    <TextView
+        android:id="@+id/hunting_time_param_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:text="Hunting Time"/>
+
+    <EditText
+        android:id="@+id/hunting_time_param_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight = "@+id/hunting_time_param_label"
+        android:layout_alignBaseline="@+id/hunting_time_param_label"
+        android:digits="0123456789"
+        android:hint="Hunting Time [sec]" />
+
+    <TextView
+        android:id="@+id/mag_opt_param_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@+id/hunting_time_param_label"
+        android:text="Mag Options"/>
+
+    <EditText
+        android:id="@+id/mag_opt_param_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight = "@+id/mag_opt_param_label"
+        android:layout_alignBaseline="@+id/mag_opt_param_label"
+        android:digits="0123456789"
+        android:hint="Mag Options [0-Chip, 1-Chip+Mag]"/>
+
+    <TextView
+        android:id="@+id/icc_opt_param_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@+id/mag_opt_param_label"
+        android:text="ICC Options [hex]"/>
+
+    <EditText
+        android:id="@+id/icc_opt_param_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight = "@+id/icc_opt_param_label"
+        android:layout_alignBaseline="@+id/icc_opt_param_label"
+        android:digits="0123456789"
+        android:hint="Icc Options [0x0100-default value]"/>
+
+    <TextView
+        android:id="@+id/ctls_opt_param_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@+id/icc_opt_param_label"
+        android:text="CTLS Options [hex]"/>
+
+    <EditText
+        android:id="@+id/ctls_opt_param_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight = "@+id/ctls_opt_param_label"
+        android:layout_alignBaseline="@+id/ctls_opt_param_label"
+        android:digits="0123456789"
+        android:hint="Ctls Options [0x0000-default value]"/>
+
+    <Button
+        android:id="@+id/atboDialog_cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@+id/ctls_opt_param" />
+
+    <Button
+        android:id="@+id/atboDialog_confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_gravity="right" />
+</LinearLayout>
